@@ -1,0 +1,132 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:Arial;
+}
+.header header .nav{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	
+	
+	
+	
+}
+.header{
+	background:pink;
+	height:70px;
+}
+.header header .nav .menu ul li{
+		
+		list-style:none;
+		text-align:center;
+		display:inline-block;
+		margin-right:30px;
+			
+		
+}
+.header header .nav .menu ul a{
+		text-decoration:none;
+		color:black;
+		font-weight:bold;
+	
+}
+.header header .nav .menu ul a:hover{
+	color:white;
+	transition:0.3s;
+	
+}
+.header header .nav .pic img{
+	width:70px;
+	height:70px;
+	margin:0px 150px ;
+	
+	border-radius:50%;
+	
+}
+.background_section .bac_img img{
+	width:100%;
+	height:600px;
+}
+.hero .container h1{
+	text-align:center;
+	font-weight:strong;
+	margin:20px;
+	padding-top:20px;
+	text-shadow:20px;
+	
+}
+/*.hero .container .box{
+	display:flex;
+	justify-content:space-between;
+	align-items:cneter;
+	flex-wrap:wrap;
+	*/
+	.hero .container .box{
+		display:grid;
+		grid-template-columns:1fr 1fr 1fr;
+		column-gap:0px;
+		overflow:hidden;
+		
+		
+	}
+	.hero .container .box img{
+		width:300px;
+		height:300px;
+		padding-top:1px;
+		margin:60px;
+		border-radius:20%;
+		
+	}
+	.footer footer .container{
+		display:flex;
+		justify-content:space-between;
+		
+	}
+	.footer footer{
+		background-color:gray;
+	}
+	.footer footer .container .box1{
+		margin:40px;
+	}
+	.footer footer .container .box1 ul li{
+		list-style:none;
+		padding:5px;
+	}
+	.footer footer .container .box1 h2 {
+		padding-bottom:30px;
+		padding-left:9px;
+	}
+	.footer footer .container .box2{
+		margin:40px;
+	}
+	.footer footer .container .box2 h2{
+		padding-bottom:30px;
+		padding-left:10px;
+	}
+	.footer footer .container .box2 ul li{
+		list-style:none;
+		padding:10px;
+	}
+	.footer footer .container .box3{
+		margin:40px;
+	}
+	.footer footer .container .box3 h2{
+		padding-bottom:30px;
+		margin-right:250px;
+		padding-left:15px;
+	}
+	.fa-facebook-f{
+		font-size:50px;
+		background-color:blue;
+	}
+	.fa-square-whatsapp{
+		font-size:50px;
+		background-color:green;
+		
+	}
+	.fa-square-instagram{
+		font-size:50px;
+		background-color:red;
+	}
